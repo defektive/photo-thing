@@ -5,7 +5,6 @@ import { Router } from 'react-router';
 import routes from './routes';
 import configureStore from './store/configureStore';
 import './app.css';
-
 const store = configureStore();
 
 render(
